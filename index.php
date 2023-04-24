@@ -6,14 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Fitness Touch By Mbijiwe | Home </title>
-<!----------------------------------------------------CSS--------------------------------------------------------->
+<!----------------------------------------------------CSS---------------------------------------------------------->
     <link rel="stylesheet" href="style.css">
 
-<!----------------------------------------------------Favicon----------------------------------------------------->
+<!----------------------------------------------------Favicon------------------------------------------------------>
 
     <link rel="icon" href="Gallery/Logo.jpg" id="web-icon">
 
-<!----------------------------------------------------CDN--------------------------------------------------------->
+<!----------------------------------------------------CDN---------------------------------------------------------->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,10 +23,11 @@
 </head>
 <body>
 
-<!--------------------------------------------------Navigation---------------------------------------------------->
+<!--------------------------------------------------Navigation----------------------------------------------------->
         <nav>
             <div class="container nav-container" >
-<!----------------------------------------------------Logo-------------------------------------------------------->
+
+<!----------------------------------------------------Logo--------------------------------------------------------->
 
                 <a href="index.php" class="nav-logo"><img src="Gallery/Logo.jpg" alt="">
 <!--                    <h3 id="logo-name">fitness touch by mbijiwe</h3>-->
@@ -40,14 +41,14 @@
                     <li><a href="contact.php">contact us</a></li>
                 </ul>
 
-<!--------------------------------------------------ToggleMenu---------------------------------------------------->
+<!--------------------------------------------------ToggleMenu----------------------------------------------------->
 
                 <button class="menu-btn"><i class="uil uil-bars"></i></button>
                 <button class="close-btn"><i class="uil uil-multiply"></i></button>
             </div>
         </nav>
 
-<!------------------------------------------------Header Section-------------------------------------------------->
+<!------------------------------------------------Header Section--------------------------------------------------->
 
         <header>
                 <div class="container header-container">
@@ -70,7 +71,7 @@
                             <div class="header-deco-2"><img src="Gallery" alt=""></div>
         </header>
 
-<!-------------------------------------------------Main (About) Section-------------------------------------------------->
+<!-------------------------------------------------Main (About) Section-------------------------------------------->
         <section class="" id="about">
             <h1 class="about-title">About Us</h1>
                 <div class="container">
@@ -126,6 +127,13 @@
             <hr class="line">
         </section>
 
+
+
+
+<!-------------------------------------------------Footer Section-------------------------------------------------->
+        <section class="footer-sec" id="footer">
+
+        </section>
 
 </body>
 </html>
