@@ -602,7 +602,11 @@
     @media (max-width: 991px) {
         .copy-right {
             flex-direction: column;
-
+            padding: 15px;
+        }
+        .ftr-sec .txt {
+            margin: 3% 3%;
+            padding: 15px;
         }
 
     }
