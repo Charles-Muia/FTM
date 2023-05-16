@@ -19,6 +19,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </head>
 <body>
@@ -38,7 +40,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="#faqs">faqs</a></li>
-                    <li><a href="contact.php">contact us</a></li>
+                    <li><a href="#contact">contact us</a></li>
                 </ul>
 
 <!--------------------------------------------------ToggleMenu----------------------------------------------------->
@@ -52,7 +54,7 @@
 
         <header>
                 <div class="container header-container">
-                    <h1 id="header-title">Fitness <span>.</span> Health <span>.</span> Nutrition</h1>
+                    <h1 id="header-title"> Health <span id="dotts">.</span> Fitness <span id="dotts">.</span> Nutrition</h1>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab culpa dolore eius, eos illo iure laboriosam minima
                             molestiae nam nesciunt nostrum obcaecati, quam quia quibusdam repellat sunt tenetur vel. Temporibus.</p>
 
@@ -130,10 +132,125 @@
 
 
 
-<!-------------------------------------------------Footer Section-------------------------------------------------->
+<!-----------------------------------------------Contact Us Section------------------------------------------------>
         <section class="footer-sec" id="footer">
+            <div class="contact-us" id="contact">
+                <div class="title">
+                    <h1 class="about-title" id="footer-title">Get In Touch</h1>
+                </div>
 
+                <div class="box">
+                    <div class="contact form">
+                        <h3> Talk To Us </h3>
+                        <form action="">
+                            <div class="form-box">
+                                <div class="row50">
+                                    <div class="input-box">
+                                        <span>First Name</span>
+                                        <input type="text" placeholder=" Enter Your First Name">
+                                    </div>
+                                    <div class="input-box">
+                                        <span>Last Name</span>
+                                        <input type="text" placeholder=" Enter Your Second Name">
+                                    </div>
+                                </div>
+                                <div class="row50">
+                                    <div class="input-box">
+                                        <span>Email Address</span>
+                                        <input type="text" placeholder=" Enter Your Email Address">
+                                    </div>
+                                    <div class="input-box">
+                                        <span>Mobile No.</span>
+                                        <input type="text" placeholder="+254 700 000 000">
+                                    </div>
+                                </div>
+
+                                <div class="row100">
+                                    <div class="input-box">
+                                        <span>Message / Comment</span>
+                                        <textarea placeholder=" Type your message / comment ..."></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="row100">
+                                    <div class="input-box">
+                                        <input type="submit" value="Send">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+                            <div class="contact info">
+                                <h3> Find Us </h3>
+                                    <div class="info-box">
+                                        <div>
+                                            <span><ion-icon name="location-outline"></ion-icon></span>
+                                            <p>Edfri Green House, 2nd floor, Ghana Street, Meru County.</p>
+                                        </div>
+                                        <div>
+                                            <span><ion-icon name="mail-outline"></ion-icon></span>
+                                            <a href="mailto:emailaddress@gmail.com">emailaddress@gmail.com</a>
+                                        </div>
+                                        <div>
+                                            <span><ion-icon name="call-outline"></ion-icon></span>
+                                            <a href="Mobile: +254 720 000 000">+254 720 000 000 </a>
+                                        </div>
+
+                                        <ul class="social-media-links">
+                                            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                                            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                                            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                                        </ul>
+                                    </div>
+                            </div>
+
+                            <div class="contact map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31918.535170448104!2d37.62293784644946!3d0.04840851280271623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x178821fe56b5066b%3A0xcb1b7dfcec59a73d!2sMeru!5e0!3m2!1sen!2ske!4v1684226646227!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                </div>
+            </div>
         </section>
+
+<!------------------------------------------------Footer Section 2------------------------------------------------->
+        <section class="ftr-sec">
+            
+                <div class="media-space">
+                    <a href=""><img src="Gallery/tw_1.png" alt=""></a>
+                    <a href=""><img src="Gallery/fb_1.png" alt=""></a>
+                    <a href=""><img src="Gallery/li_1.png" alt=""></a>
+                    <a href=""><img src="Gallery/fb_1.png" alt=""></a>
+                    <a href=""><img src="Gallery/li_1.png" alt=""></a>
+                </div>
+
+            <ul class="listing">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#faqs">faqs</a></li>
+                <li><a href="#contact">contact us</a></li>
+            </ul>
+
+            <p class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. veritatis, vitae!
+                Aliquid animi deserunt incidunt! <br>
+                Accusantium alias commodi fuga fugiat in
+                inventore mollitia quae quam qui quo, <br>
+                recusandae rerum tempora, veritatis, vitae!</p>
+
+            <p class="slogan">
+                Health . Fitness . Nutrition
+            </p>
+
+            <p class="copy-right">
+                Copyright &copy; 2023 . fitness touch by mbijiwe  . All Rights Reserved <br>
+
+                website by <a href="">Techware Scope Solutions</a>
+            </p>
+            
+        </section>
+
 
 </body>
 </html>
