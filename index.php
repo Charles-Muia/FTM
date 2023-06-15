@@ -40,7 +40,7 @@
                 </a>
 
                 <ul class="nav-links">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="#top">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="#faqs">faqs</a></li>
@@ -56,9 +56,9 @@
 
 <!------------------------------------------------Header Section--------------------------------------------------->
 
-        <header>
+        <header id="top">
                 <div class="container header-container">
-                    <h1 id="header-title"> Health <span id="dotts">.</span> Fitness <span id="dotts">.</span> Nutrition</h1>
+                    <h1 id="header-title"> Health <span class="dott"></span> Fitness <span class="dott"> </span> Nutrition</h1>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab culpa dolore eius, eos illo iure laboriosam minima
                             molestiae nam nesciunt nostrum obcaecati, quam quia quibusdam repellat sunt tenetur vel. Temporibus.</p>
 
@@ -134,7 +134,13 @@
         </section>
 
 
+<!------------------------------------------------- (FAQ) Section-------------------------------------------------->
 
+        <section class="FAQ-sec" id="faqs">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum illum quod velit?</p>
+
+        </section>
 
 <!-----------------------------------------------Contact Us Section------------------------------------------------>
         <section class="footer-sec" id="footer">
