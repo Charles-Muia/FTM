@@ -1,0 +1,41 @@
+/*--###---CONTACT-US--------------------------------------------------------------------------------------------------*/
+    @media (max-width: 991px) {
+        #ContactUS {
+            background: #0e3959;
+        }
+
+        .Contact-US {
+            padding: 20px;
+        }
+
+        .Contact-box {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-template-areas:
+                    "form"
+                    "info"
+                    "map";
+        }
+
+        .Contact-box h3 {
+            margin-left: 20px;
+        }
+
+        .social-media-icons li a {
+            margin-left: 10px;
+        }
+
+        .map {
+            min-height: 300px;
+        }
+
+        .contBox .row50 {
+            display: flex;
+            gap: 0;
+            flex-direction: column;
+        }
+
+        .inputBox {
+            width: 100%;
+        }
+    }
