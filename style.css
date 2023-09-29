@@ -14,9 +14,14 @@
         --Quicksand: 'Quicksand', sans-serif;
         --Orbitron: 'Orbitron', sans-serif;
         --NewsCycle: 'News Cycle', sans-serif;
+        --Ubuntu: 'Ubuntu', sans-serif;
 
         /*color*/
         --White: #ffffff;
+        --Blue: #18b7ff;
+        --Dark-blue: #00008b;
+        --Black: #1b1b1b;
+        --Dark-Red: #8b0000;
     }
 
 
@@ -93,4 +98,25 @@
 
     .inputBox {
         display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        width: 50%;
+    }
+
+    .contBox .row100 .inputBox {
+        width: 100%;
+    }
+
+    .inputBox span {
+        color: var(--Dark-Red);
+        font-family: var(--Ubuntu);
+        font-weight: 500;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    .inputBox input {
+        padding: 10px;
+        font-size: 1rem;
     }
