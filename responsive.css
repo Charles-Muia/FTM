@@ -27,6 +27,7 @@
 
         .map {
             min-height: 300px;
+            padding: 0;
         }
 
         .contBox .row50 {
@@ -37,5 +38,9 @@
 
         .inputBox {
             width: 100%;
+        }
+
+        .Contact {
+            padding: 30px;
         }
     }
