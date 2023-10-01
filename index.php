@@ -28,6 +28,19 @@
 
 </head>
     <body>
+<!--###---NAV-BAR------------------------------------------------------------------------------------------------------>
+
+    <nav>
+        <img src="Gallery/Logo.jpg" alt="">
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">faqs</a></li>
+            <li><a href="#">contact us</a></li>
+        </ul>
+    </nav>
 
     <section>
 
