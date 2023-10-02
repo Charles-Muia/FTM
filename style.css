@@ -32,10 +32,11 @@
     }
 
     nav img {
-        width: 150px;
+        width: 120px;
         position: absolute;
-        top: 40px;
+        top: 50px;
         left: 5%;
+        cursor: pointer;
     }
      nav ul {
          float: right;
