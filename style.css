@@ -26,9 +26,9 @@
 
 /*--###---NAV-BAR---------------------------------------------------------------------------------------------------*/
     nav {
-        height: 200px;
+        height: 110px;
         background: var(--White);
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     nav img {
@@ -85,8 +85,12 @@
         transform-origin: left;
     }
 
+    section {
+        background: var(--White);
+        margin-top: 100px;
+    }
 
-        /*--###---CONTACT-US------------------------------------------------------------------------------------------------*/
+/*--###---CONTACT-US------------------------------------------------------------------------------------------------*/
 
     #ContactUS {
         background: linear-gradient(90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #03a9f5 100%);
@@ -254,7 +258,7 @@
     }
 
     .social-media-icons {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-top: 40px;
         display: flex;
     }
