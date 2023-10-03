@@ -42,7 +42,22 @@
         </ul>
     </nav>
 
-    <section>
+<!--###---BLOG--------------------------------------------------------------------------------------------------------->
+
+    <section class="sec-blog" id="blog">
+        <div class="heading">
+            <span>our blog</span>
+                <h3>latest posts</h3>
+        </div>
+
+            <div class="container">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="Gallery/Jog.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>
 
     </section>
 
