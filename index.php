@@ -26,6 +26,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Lato&family=Mooli&family=News+Cycle&family=Orbitron&family=Quicksand&family=Ubuntu&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet">
+
 </head>
     <body>
 <!--###---NAV-BAR------------------------------------------------------------------------------------------------------>
@@ -61,8 +65,41 @@
                                 <a href="#" class="title">Lorem ipsum dolor sit amet</a>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                         At dolore enim harum optio quasi quidem ratione tempora. Ab, deserunt soluta!</p>
+
+                                            <a class="read_more" href="#"> read more </a>
                         </div>
 
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="Gallery/Pullups.jpg" alt="blog">
+                    </div>
+
+                    <div class="text">
+                        <span> 05/10/2023 &#160; <i class="fa-solid fa-grip-lines-vertical"></i> &#160; Fitness </span>
+                        <a href="#" class="title">Lorem ipsum dolor sit amet</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            At dolore enim harum optio quasi quidem ratione tempora. Ab, deserunt soluta!</p>
+
+                        <a class="read_more" href="#"> read more </a>
+                    </div>
+
+                </div>
+
+                <div class="box">
+                    <div class="box-img">
+                        <img src="Gallery/Muscle.jpg" alt="blog">
+                    </div>
+
+                    <div class="text">
+                        <span> 05/10/2023 &#160; <i class="fa-solid fa-grip-lines-vertical"></i> &#160; Fitness </span>
+                        <a href="#" class="title">Lorem ipsum dolor sit amet</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            At dolore enim harum optio quasi quidem ratione tempora. Ab, deserunt soluta!</p>
+
+                        <a class="read_more" href="#"> read more </a>
+                    </div>
 
                 </div>
             </div>
