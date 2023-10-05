@@ -53,9 +53,17 @@
             <div class="container">
                 <div class="box">
                     <div class="box-img">
-                        <img src="Gallery/Jog.jpg" alt="">
-
+                        <img src="Gallery/Jog.jpg" alt="blog">
                     </div>
+
+                        <div class="text">
+                            <span> 05/10/2023 &#160; <i class="fa-solid fa-grip-lines-vertical"></i> &#160; Fitness </span>
+                                <a href="#" class="title">Lorem ipsum dolor sit amet</a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        At dolore enim harum optio quasi quidem ratione tempora. Ab, deserunt soluta!</p>
+                        </div>
+
+
                 </div>
             </div>
 
