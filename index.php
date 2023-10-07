@@ -20,7 +20,8 @@
 <!--###---CDN-LINKS---------------------------------------------------------------------------------------------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 <!--###---GOOGLE-FONTS------------------------------------------------------------------------------------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,7 +55,7 @@
                 <h3>latest posts</h3>
         </div>
 
-            <div class="container">
+            <div class="blog_cont">
                 <div class="box">
                     <div class="box-img">
                         <img src="Gallery/Jog.jpg" alt="blog">
@@ -192,18 +193,49 @@
 
                 </div>
         </div>
+
+    </section>
+<hr>
+
+<!--###---BANNER------------------------------------------------------------------------------------------------------->
+
+    <section class="banner-sec">
+            <div class="container">
+                <div class="banner-sec-image">
+                    <img src="Gallery/Banner.jpg" alt="Banner">
+                        <div class="banner-sec-text">
+                            <strong>
+                                <span>Health , Fitness & </span> <br> Nutrition
+                            </strong>
+                                <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.
+                                    Facilis, fugit.</p>
+                                        <a href="#">Talk To Us</a>
+                        </div>
+                </div>
+            </div>
     </section>
 
 <!--###---FOOTER------------------------------------------------------------------------------------------------------->
+    <section class="foot-sec">
+        <footer>
+            <div class="footer-con">
+                <div class="sec about-us">
+                    <h2>about us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Adipisci dignissimos esse ipsam iusto molestias, nisi quam quibusdam sunt?
+                            A accusantium et fugiat libero nisi numquam similique tempore, totam veniam voluptas?</p>
+                </div>
 
-    <footer>
-        <div class="footer-con">
-            <div class="sec about-us">
-
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                            <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+                        </ul>
             </div>
-        </div>
-    </footer>
-
+        </footer>
+    </section>
 <!--###---JS----------------------------------------------------------------------------------------------------------->
         <!--SMOOTH-SCROLL-JS-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
