@@ -464,7 +464,7 @@
     }
 
     .banner-sec-text strong span {
-        font: 400 45px/52px var(--Montserrat);
+        font: 800 63px/70px var(--Montserrat);
         letter-spacing: 4px;
     }
 
@@ -479,7 +479,7 @@
 
     .banner-sec-text a {
         display: inline-block;
-        font: 15px var(--Montserrat);
+        font: 18px var(--Quicksand);
         background: var(--Black);
         border-radius: 50px;
         color: var(--White_2);
@@ -509,6 +509,7 @@
         flex-direction: column;
         background: #f4f4f4;
         padding-top: 150px;
+        color: var(--White_2);
     }
 
     footer {
@@ -522,4 +523,23 @@
         flex-wrap: wrap;
     }
 
-    
+    footer .footer-con {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 100px;
+
+    }
+
+    footer .footer-con .sec {
+        margin-right: 30px;
+    }
+
+    footer .footer-con .sec.about-us {
+        width: 40%;
+    }
+
+    footer .footer-con .sec.about-us h2 {
+
+    }

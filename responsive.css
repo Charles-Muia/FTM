@@ -43,6 +43,27 @@
         .Contact {
             padding: 30px;
         }
+
+        .banner-sec-text strong {
+            font-size: 35px;
+            line-height: 40px;
+        }
+
+        .banner-sec-text strong span {
+            font-size: 28px;
+            line-height: 35px;
+            letter-spacing: 2px;
+        }
+
+        .banner-sec-text p {
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .banner-sec-text a {
+            font-size: 14px;
+            line-height: 15px;
+        }
     }
 
 /*--###---BLOG--------------------------------------------------------------------------------------------------------*/
@@ -68,5 +89,33 @@
         #blog {
             padding: 20px;
         }
+    }
 
+/*--###---BANNER------------------------------------------------------------------------------------------------------*/
+
+    @media only screen and (max-width: 767px) {
+        .banner-sec-image img {
+            min-height: 290px;
+            object-fit: cover;
+        }
+    }
+
+    @media only screen and (max-width: 575px) {
+        .banner-sec-text strong {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            width: 100%;
+            display: block;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .banner-sec-text strong span {
+            font-size: 22px;
+            line-height: 31px;
+            letter-spacing: 1px;
+        }
+        .banner-sec-text {
+            left: 2%;
+        }
     }

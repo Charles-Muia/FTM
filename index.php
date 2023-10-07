@@ -205,7 +205,7 @@
                     <img src="Gallery/Banner.jpg" alt="Banner">
                         <div class="banner-sec-text">
                             <strong>
-                                <span>Health , Fitness & </span> <br> Nutrition
+                                <span>Health ,Fitness </span> <br> & Nutrition
                             </strong>
                                 <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.
                                     Facilis, fugit.</p>
@@ -224,15 +224,16 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Adipisci dignissimos esse ipsam iusto molestias, nisi quam quibusdam sunt?
                             A accusantium et fugiat libero nisi numquam similique tempore, totam veniam voluptas?</p>
-                </div>
 
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
-                            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
-                            <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                            <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
-                        </ul>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+                    </ul>
+
+                </div>
             </div>
         </footer>
     </section>
