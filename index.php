@@ -190,10 +190,8 @@
                                     style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                         </div>
-
                 </div>
         </div>
-
     </section>
 <hr>
 
@@ -202,14 +200,14 @@
     <section class="banner-sec">
             <div class="container">
                 <div class="banner-sec-image">
-                    <img src="Gallery/Banner.jpg" alt="Banner">
+                    <img src="Gallery/Banner_7.png" alt="Banner">
                         <div class="banner-sec-text">
                             <strong>
-                                <span>Health ,Fitness </span> <br> & Nutrition
+                                <span>Health,Fitness </span> <br> & Nutrition
                             </strong>
                                 <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.
                                     Facilis, fugit.</p>
-                                        <a href="#">Talk To Us</a>
+                                        <a href="#ContactUS">Talk To Us</a>
                         </div>
                 </div>
             </div>

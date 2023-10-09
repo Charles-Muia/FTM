@@ -424,18 +424,19 @@
 
     /*hr {*/
     /*    display: block;*/
-    /*    margin-top: 4.5em;*/
-    /*    margin-bottom: 0.5em;*/
+    /*    margin-top: 0.3em;*/
     /*    margin-left: auto;*/
     /*    margin-right: auto;*/
     /*    border-style: inset;*/
     /*    border-width: 1px;*/
+    /*    color: transparent;*/
     /*}*/
 
 /*--###---BANNER-----------------------------------------------------------------------------------------------------*/
 
     .banner-sec {
         width: 100%;
+        margin-top: 4px;
     }
 
     .banner-sec-image {
@@ -507,9 +508,9 @@
         justify-content: flex-end;
         align-items: center;
         flex-direction: column;
-        background: #f4f4f4;
+        background: linear-gradient(90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%, #03a9f5 100%);
         padding-top: 150px;
-        color: var(--White_2);
+        color: var(--Dark-blue);
     }
 
     footer {
@@ -517,7 +518,7 @@
         width: 100%;
         height: auto;
         padding: 50px 100px;
-        background: #111111;
+        background: #f5f5f5;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -528,8 +529,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         flex-direction: row;
-        margin-top: 100px;
-
+        margin-top: 70px;
     }
 
     footer .footer-con .sec {
@@ -541,5 +541,6 @@
     }
 
     footer .footer-con .sec.about-us h2 {
-
+        text-transform: capitalize;
+        margin-bottom: 15px;
     }
