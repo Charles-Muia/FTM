@@ -35,10 +35,10 @@
     <body>
 <!--###---NAV-BAR------------------------------------------------------------------------------------------------------>
 
-    <nav>
+    <nav id="home">
         <img src="Gallery/Logo.jpg" alt="">
         <ul>
-            <li><a href="#">home</a></li>
+            <li><a href="#home">home</a></li>
             <li><a href="#">about us</a></li>
             <li><a href="#">services</a></li>
             <li><a href="#blog">blog</a></li>
@@ -230,11 +230,45 @@
                         <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
                         <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
                     </ul>
-
                 </div>
+
+                    <div class="sec quick-links">
+                        <h2>quick links</h2>
+                            <ul>
+                                <li><a href="#home">home</a></li>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">services</a></li>
+                                <li><a href="#blog">blog</a></li>
+                                <li><a href="#">faqs</a></li>
+                                <li><a href="#ContactUS">contact us</a></li>
+                            </ul>
+                    </div>
+
+                        <div class="sec contact-zone">
+                            <h2>find us</h2>
+                                <ul class="contact-list">
+                                    <li>
+                                        <span><i class="fa-solid fa-location-dot"></i></span>
+                                        <span> Global Village, +254  <br> Magical KE, EA </span>
+                                    </li>
+
+                                    <li>
+                                        <span><i class="fa-solid fa-phone"></i></span>
+                                        <span><a href="T:0123456789">+254 724 563 163</a>
+                                            <br><a href="Tel:0123456789">+254 724 563 163</a></span>
+                                    </li>
+
+                                    <li>
+                                        <span><i class="fa-solid fa-envelope"></i></span>
+                                        <span><a href="MailTo:@.com">info@ftm.com</a></p></span>
+                                    </li>
+                                </ul>
+                        </div>
+
             </div>
         </footer>
     </section>
+
 <!--###---JS----------------------------------------------------------------------------------------------------------->
         <!--SMOOTH-SCROLL-JS-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
