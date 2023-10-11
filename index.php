@@ -255,18 +255,23 @@
                                     <li>
                                         <span><i class="fa-solid fa-phone"></i></span>
                                         <span><a href="T:0123456789">+254 724 563 163</a>
-                                            <br><a href="Tel:0123456789">+254 724 563 163</a></span>
+                                            <br> <a href="Tel:0123456789">+254 724 563 163</a></span>
                                     </li>
 
                                     <li>
                                         <span><i class="fa-solid fa-envelope"></i></span>
-                                        <span><a href="MailTo:@.com">info@ftm.com</a></p></span>
+                                        <span><a href="MailTo:@.com">info@ftm.com</a></span>
                                     </li>
                                 </ul>
                         </div>
 
             </div>
         </footer>
+                            <div class="copyright-sec"> <br>
+                                <p> Copyright &#169 2023 <i class="bi bi-dot"></i> Fitness By Mbijiwe <i class="bi bi-dot"></i> All rights reserved <br>
+<!--                                    <br> FITNESS <i class="bi bi-dot"></i> HEALTH <i class="bi bi-dot"></i> NUTRITION-->
+                                </p> <br>
+                            </div>
     </section>
 
 <!--###---JS----------------------------------------------------------------------------------------------------------->

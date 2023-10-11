@@ -64,6 +64,32 @@
             font-size: 14px;
             line-height: 15px;
         }
+
+        footer {
+            padding: 40px;
+        }
+
+        footer .footer-con {
+            flex-direction: column;
+        }
+
+        footer .footer-con .sec {
+            margin-right: 0;
+            margin-bottom: 60px;
+        }
+
+        footer .footer-con .sec.contact-zone {
+            margin-top: 60px;
+        }
+
+        footer .footer-con .sec.about-us,
+        .quick-links , .contact-zone {
+            width: 100%;
+        }
+
+        .copyright-sec {
+            padding: 8px 40px;
+        }
     }
 
 /*--###---BLOG--------------------------------------------------------------------------------------------------------*/
@@ -119,3 +145,6 @@
             left: 2%;
         }
     }
+
+/*--###---FOOTER------------------------------------------------------------------------------------------------------*/
+
