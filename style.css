@@ -92,6 +92,21 @@
         transform-origin: left;
     }
 
+    label #btn,
+    label #cancel {
+        color: var(--Blue);
+        font-size: 50px;
+        float: right;
+        line-height: 80px;
+        margin-right: 50px;
+        cursor: pointer;
+        display: none;
+    }
+
+    #check {
+        display: none;
+    }
+
 /*--###---BLOG-------------------------------------------------------------------------------------------------------*/
 
     .sec-blog {

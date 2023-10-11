@@ -36,15 +36,20 @@
 <!--###---NAV-BAR------------------------------------------------------------------------------------------------------>
 
     <nav id="home">
-        <img src="Gallery/Logo.jpg" alt="">
-        <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#blog">blog</a></li>
-            <li><a href="#">faqs</a></li>
-            <li><a href="#ContactUS">contact us</a></li>
-        </ul>
+        <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                    <i class="fas fa-times" id="cancel"></i>
+            </label>
+                <img src="Gallery/Logo.jpg" alt="">
+                    <ul>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#blog">blog</a></li>
+                        <li><a href="#">faqs</a></li>
+                        <li><a href="#ContactUS">contact us</a></li>
+                    </ul>
     </nav>
 
 <!--###---BLOG--------------------------------------------------------------------------------------------------------->
