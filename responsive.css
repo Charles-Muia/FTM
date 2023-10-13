@@ -1,3 +1,50 @@
+/*--###---NAVIGATION--------------------------------------------------------------------------------------------------*/
+
+    @media (max-width: 1118px) {
+        nav img {
+            left: 8%;
+        }
+    }
+
+    @media (max-width: 944px) {
+        nav img {
+            left: 6%;
+            top: 20px;
+            width: 130px;
+        }
+
+        nav ul li a {
+            font-size: 17px;
+        }
+    }
+
+    @media (max-width: 860px) {
+        label #btn {
+            display: block;
+        }
+
+        ul {
+            position: fixed;
+            width: 100%;
+            height: 30vh;
+            background: #18b7ff;
+            top: 200px;
+            left: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+        }
+
+        nav ul li a {
+            font-size: 17px;
+        }
+    }
+
+
 /*--###---CONTACT-US--------------------------------------------------------------------------------------------------*/
     @media (max-width: 991px) {
         #ContactUS {
