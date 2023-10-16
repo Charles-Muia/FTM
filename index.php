@@ -39,13 +39,36 @@
                 <img src="Gallery/Logo.jpg" alt="">
                     <ul>
                         <li><a href="#home">home</a></li>
-                        <li><a href="#">about us</a></li>
+                        <li><a href="#abt">about us</a></li>
                         <li><a href="#">services</a></li>
                         <li><a href="#blog">blog</a></li>
                         <li><a href="#">faqs</a></li>
                         <li><a href="#ContactUS">contact us</a></li>
                     </ul>
+        <hr>
+        <hr>
     </nav>
+
+<!--###---ABOUT-------------------------------------------------------------------------------------------------------->
+
+    <section class="about" id="abt">
+        <div class="main">
+            <img src="Gallery/Stay-Fit.jpg" alt="">
+                <div class="all-text">
+                    <h4>about us</h4>
+                        <h1>health & fitness is a lifestyle.</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias commodi, consequatur corporis
+                                cum deleniti doloremque ea est fugit harum iste minima nobis provident
+                                quasi recusandae similique tempora veniam voluptatem voluptatibus?
+                                quasi recusandae similique tempora veniam voluptatem voluptatibus?</p>
+                                    <div class="btn">
+                                        <button type="button">our team</button>
+                                        <button type="button">learn more</button>
+
+                                    </div>
+                </div>
+        </div>
+    </section>
 
 <!--###---BLOG--------------------------------------------------------------------------------------------------------->
 
