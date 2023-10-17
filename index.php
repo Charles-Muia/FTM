@@ -78,7 +78,34 @@
                 <div class="BMI_title">
                     <h1>calculate your BMI</h1>
                 </div>
+
+                    <p class="BMI_description">
+                        BMI (Body Mass Index) is a medical screening tool that
+                        measures the ratio of your height to your weight to estimate the amount of body fat you have.
+                    </p>
+
+                <form action="" class="BMI_form" id="BMI__form">
+                    <div class="calculate_box">
+                        <input type="number" placeholder="Enter Your Height" class="calculate_input" id="calculate_cm">
+                        <label for="" class="calculate_lable">cm</label>
+                    </div>
+                    <div class="calculate_box">
+                        <input type="number" placeholder="Enter Your Weight" class="calculate_input" id="calculate_kgs">
+                        <label for="" class="calculate_lable">kgs</label>
+                    </div>
+
+                    <button type="submit" class="button button_flex">
+                        Click To Calculate <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </form>
+
+                    <p class="calculate--message" id="calculate_message">
+
+                    </p>
             </div>
+
+<!--            <img src="" alt="">-->
+            
         </div>
     </section>
 

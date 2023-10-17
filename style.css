@@ -161,6 +161,29 @@
         outline: none;
     }
 
+/*--###---BMI--------------------------------------------------------------------------------------------------------*/
+
+    .calculate {
+        padding: 50px;
+        background-color: var(--Black);
+        margin-top: 120px;
+        margin-bottom: 120px;
+        color: var(--White);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .calculate_container {
+        row-gap: 4rem;
+    }
+
+
+
+
+
+
+
 
 /*--###---BLOG-------------------------------------------------------------------------------------------------------*/
 
