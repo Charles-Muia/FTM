@@ -70,6 +70,18 @@
         </div>
     </section>
 
+<!--###---BMI-C-------------------------------------------------------------------------------------------------------->
+
+    <section class="BMI calculate">
+        <div class="calculate_container BMI_cont grid">
+            <div class="calculate_content">
+                <div class="BMI_title">
+                    <h1>calculate your BMI</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <!--###---BLOG--------------------------------------------------------------------------------------------------------->
 
     <section class="sec-blog" id="blog">
@@ -131,6 +143,7 @@
     </section>
 
 <!--###---CONTACT-US--------------------------------------------------------------------------------------------------->
+
     <section class="Contact-US-Sec" id="ContactUS">
         <div class="Contact-US">
             <div class="Contact-US-Title">
