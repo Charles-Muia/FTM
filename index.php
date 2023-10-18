@@ -371,6 +371,24 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+        <!--BMI-CALCULATOR-JS-->
+    <script>
+        const BMIForm = document.getElementById('BMI__form'),
+            CalculateCm = document.getElementById('calculate_cm'),
+            CalculateKg = document.getElementById('calculate_kgs'),
+            CalculateMessage = document.getElementById('calculate_message')
+
+        const CalculateBMI = (e) => {
+                e.preventDefault()
+
+            //Check if there is any entry / values
+            if ()
+        }
+
+        BMIForm.addEventListener('submit', CalculateBMI)
+
+    </script>
+
     </body>
 </html>
 

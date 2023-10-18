@@ -266,6 +266,16 @@
         transform: translateX(2.35rem);
     }
 
+    .calculate--message {
+        position: absolute;
+        transform: translateY(3rem);
+        font-family: var(--Ubuntu);
+        text-transform: uppercase;
+        font-size: 2rem;
+        margin: auto;
+        color: var(--White);
+    }
+
 
 /*--###---BLOG-------------------------------------------------------------------------------------------------------*/
 
