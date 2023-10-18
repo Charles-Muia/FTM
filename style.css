@@ -178,6 +178,14 @@
         row-gap: 4rem;
     }
 
+    .calculate_content .BMI_title {
+        margin-bottom: 3rem;
+        text-transform: capitalize;
+        font-family: var(--Quicksand);
+        font-size: 2rem;
+        /*text-align: center;*/
+    }
+
 
 
 
