@@ -91,7 +91,7 @@
                     </div>
                     <div class="calculate_box">
                         <input type="number" placeholder="Enter Your Weight" class="calculate_input" id="calculate_kgs">
-                        <label for="" class="calculate_lable">kgs</label>
+                        <label for="" class="calculate_lable">kg's</label>
                     </div>
 
                     <button type="submit" class="button button_flex">
