@@ -382,7 +382,15 @@
                 e.preventDefault()
 
             //Check if there is any entry / values
-            if ()
+            if (CalculateCm.value === '' || CalculateKg.value === '' ) {
+
+                //Add / Remove color
+                CalculateMessage.classList.remove ('color-white')
+                CalculateMessage.classList.add('color-yellow')
+
+                //Show results
+                CalculateMessage.textContent = 'Fill In Your Height and Weight 👈'
+            }
         }
 
         BMIForm.addEventListener('submit', CalculateBMI)
