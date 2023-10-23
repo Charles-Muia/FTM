@@ -98,10 +98,11 @@
                         Click To Calculate <i class="fa-solid fa-arrow-right-long"></i>
                     </button>
                 </form>
-
+                        <div>
                     <p class="calculate--message" id="calculate_message">
 
                     </p>
+                        </div>
             </div>
 
 <!--            <img src="" alt="">-->
@@ -389,12 +390,12 @@
                 CalculateMessage.classList.add('color-yellow')
 
                 //Show results
-                CalculateMessage.textContent = 'Fill In Your Height and Weight 👈'
+                CalculateMessage.textContent = '!Empty Fields!, Fill In Your Height and Weight  👈'
 
                 //Remove message after 5 seconds
                 setTimeout(() => {
                     CalculateMessage.textContent = ''
-                }, 5000)
+                }, 4000)
             } else {
                 //Formula for BMI
             }

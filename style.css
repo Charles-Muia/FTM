@@ -268,11 +268,13 @@
 
     .calculate--message {
         position: absolute;
-        transform: translateY(3rem);
+        /*transform: translateY(3rem);*/
         font-family: var(--Ubuntu);
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: 1.2rem;
         margin: auto;
+        width: 85%;
+        text-align: center;
         color: var(--White);
     }
 
@@ -281,7 +283,9 @@
     }
 
     .color-yellow {
-        color: var(--Dark-Red);
+        color: var(--White_2);
+        text-align: center;
+
     }
 
 /*--###---BLOG-------------------------------------------------------------------------------------------------------*/
