@@ -390,6 +390,13 @@
 
                 //Show results
                 CalculateMessage.textContent = 'Fill In Your Height and Weight 👈'
+
+                //Remove message after 5 seconds
+                setTimeout(() => {
+                    CalculateMessage.textContent = ''
+                }, 5000)
+            } else {
+                //Formula for BMI
             }
         }
 
