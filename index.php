@@ -300,7 +300,7 @@
                         <h2>quick links</h2>
                             <ul>
                                 <li><a href="#home">home</a></li>
-                                <li><a href="#">about us</a></li>
+                                <li><a href="#abt">about us</a></li>
                                 <li><a href="#">services</a></li>
                                 <li><a href="#blog">blog</a></li>
                                 <li><a href="#">faqs</a></li>
@@ -386,18 +386,30 @@
             if (CalculateCm.value === '' || CalculateKg.value === '' ) {
 
                 //Add / Remove color
-                CalculateMessage.classList.remove ('color-white')
+                CalculateMessage.classList.remove ('color-yellow')
                 CalculateMessage.classList.add('color-yellow')
 
                 //Show results
                 CalculateMessage.textContent = '!Empty Fields!, Fill In Your Height and Weight  👈'
 
-                //Remove message after 5 seconds
+                //Remove message after 4 seconds
                 setTimeout(() => {
                     CalculateMessage.textContent = ''
                 }, 4000)
+
             } else {
+
                 //Formula for BMI
+                const cm = CalculateCm.value / 100,
+                      kg = CalculateKg.value,
+                      BMI = Math.round(kg / (cm * cm))
+
+                //Show results
+                if (BMI < 18.5) {
+                    //Display Message
+                    CalculateMessage.classList.add ('color-yellow')
+                    CalculateMessage.textContent = 'Your BMI is ${BMI} and You are SKINNY 🦴🦴'
+                }
             }
         }
 
